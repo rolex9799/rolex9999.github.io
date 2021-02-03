@@ -67,11 +67,11 @@ $key = $pgdata[$pgname]['keywords'];
 
 <?php include('./partials/nav-bottom.php'); ?>
   
-<!-- <script>
+<script>
 
 <?php  include 'scripts.js'; ?>
 
-</script> -->
+</script>
 
 <!-- 
 <?php
@@ -81,7 +81,7 @@ $key = $pgdata[$pgname]['keywords'];
 
 ?> -->
 
-
-<script src="scripts.js"></script>
+<!-- 
+<script src="scripts.js"></script> -->
 </body>
 </html>
