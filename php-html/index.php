@@ -44,7 +44,7 @@ $key = $pgdata[$pgname]['keywords'];
 
 
 <body>
-
+ 
 
 <?php include('./partials/nav-top.php'); ?>
 
