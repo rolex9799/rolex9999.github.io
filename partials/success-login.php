@@ -9,6 +9,8 @@ if ($good) {
   $teksts = "Sveicināti, " . $_POST['username'];
   $stils = 'successLogin';
 
+ 
+
 }else{
   $teksts = "Username vai parole nav OK!  ";
   $stils = 'unsuccessLogin';
