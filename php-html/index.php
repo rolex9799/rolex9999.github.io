@@ -73,15 +73,15 @@ $key = $pgdata[$pgname]['keywords'];
 
 </script> -->
 
-<!-- 
+
 <?php
 
    $script = file_get_contents('scripts.js');
    echo "<script>".$script."</script>";
 
-?> -->
+?>
 
-
-<script src="scripts.js"></script>
+<!-- 
+<script src="scripts.js"></script> -->
 </body>
 </html>
