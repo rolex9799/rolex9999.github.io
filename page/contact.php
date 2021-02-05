@@ -13,7 +13,7 @@ $result2 = $conn->query($sql);
 
 <div class="banner">
 
-  <h1>Contact us</h1>
+  <h1>Contact me</h1>
 
 </div>
 
@@ -21,7 +21,7 @@ $result2 = $conn->query($sql);
 
 
 
-    <h1>Aizsūti mums ziņu!</h1>
+    <h1>Send me a message!</h1>
   
     
     <form method="POST" action="create-message.php">
@@ -41,7 +41,7 @@ $result2 = $conn->query($sql);
       </div>
 
       <div class="form-group">
-        <label for="location">Location</label>
+        <label for="location">Location:</label>
 
         <input type="text" id="location" name="location">
       </div>

@@ -15,7 +15,7 @@ if ($good) {
 
 }elseif(!$good){
   include('./partials/nav-top.php');
-  $teksts = "Username vai parole nav OK!  ";
+  $teksts = "Username or password is incorrect!  ";
   $stils = 'unsuccessLogin';
 }
 

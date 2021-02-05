@@ -5,25 +5,32 @@ const modal = document.querySelector("#modal");
 const close = document.querySelector(".close");
 const teamName = document.querySelector(".team-title");
 const modalImage = document.querySelector(".modal-image");
+// const description = document.querySelector(".team-description");
+
 
 
 const showTeamInfo = (event) => {
-
+  console.log(event.target.parentNode.children);
   const btnSiblings = event.target.parentNode.children;
-  const image = btnSiblings[0];
+  const image = btnSiblings[2];
   const imageSrc = image.getAttribute("src");
-  if(btnSiblings && btnSiblings[1].children[0]){
+
+  if(btnSiblings && btnSiblings[0]){
     
-  const nameToBeDisplayed = btnSiblings[1].children[0].innerHTML;
+  nameToBeDisplayed = btnSiblings[0].innerHTML;
 
   }else{
-  nameToBeDisplayed = ""; 
+  nameToBeDisplayed = "test"; 
   }
+
+  console.log(nameToBeDisplayed);
+
  
   modalImage.insertAdjacentHTML("afterbegin", `<img class="team-img" src="${imageSrc}" alt="servette">`);
 
-
   teamName.innerHTML = nameToBeDisplayed;
+
+
 }
 
 

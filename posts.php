@@ -65,9 +65,14 @@ Datu Bāze
 
 
 
+<div class="container4"> 
+
 <a class="postButton"  href="./delete-posts.php?post=<?php echo $row['id']; ?>">Delete post!</a>
  
-  
+<a class="postButton"  href="./index.php">Return back</a>
+</div>
+
+
 
   
 

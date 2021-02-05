@@ -41,7 +41,7 @@ require_once('./partials/success-login.php');
 
 <?php if($good) : ?>
 
-<h1>Ko tu vēlies darīt?</h1>
+<h1 class="whatYouWant">What do you want to do?</h1>
 
 
 <div class="container3">
@@ -68,7 +68,7 @@ require_once('./partials/success-login.php');
 
 <?php include('./partials/nav-bottom.php'); ?>
 <script src="scripts.js"></script>
-  
+
 </body>
 </html>
 
