@@ -24,18 +24,6 @@ require_once('./partials/success-login.php');
 </head>
 <body>
 
-<?php if($good) : ?>
-
-<?php include('./partials/nav-top2.php'); ?>
-
-<?php endif; ?>
-
-
-<?php if(!$good) : ?>
-
-<?php include('./partials/nav-top.php'); ?>
-
-<?php endif; ?>
 
 <div class="banner">
 
@@ -75,13 +63,6 @@ require_once('./partials/success-login.php');
 </div>
 
 <?php endif; ?>
-
-
-<!-- <?php echo $_POST['username']; ?>
-<br>
-<?php echo $_POST['password']; ?> -->
-
-
 
 
 

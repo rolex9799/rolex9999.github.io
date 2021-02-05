@@ -82,14 +82,11 @@ const navSlide = () => {
 
     nav.classList.toggle('nav-active');
 
-    navLinks.forEach((link, index) => {
+    navLinks.forEach((link) => {
 
       if(link.style.animation){
         link.style.animation = '';
       }
-      // else{
-      //   link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 1.1}s`;
-      // }
     })
 
     burger.classList.toggle('toggle');

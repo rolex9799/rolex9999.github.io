@@ -58,7 +58,6 @@ $key = $pgdata[$pgname]['keywords'];
   }elseif($pgname == 'login'){
     echo include_once('./page/login.php');
   }
-  
   else {
     echo file_get_contents('./page/' . $pgname . '.html');
   }
@@ -67,20 +66,6 @@ $key = $pgdata[$pgname]['keywords'];
 
 <?php include('./partials/nav-bottom.php'); ?>
   
-<!-- <script>
-
-<?php  include 'scripts.js'; ?>
-
-</script> -->
-
-<!-- 
-<?php
-
-   $script = file_get_contents('scripts.js');
-   echo "<script>".$script."</script>";
-
-?> -->
-
 
 <script src="scripts.js"></script>
 </body>
