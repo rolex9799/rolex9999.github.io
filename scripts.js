@@ -12,7 +12,7 @@ const showTeamInfo = (event) => {
   const btnSiblings = event.target.parentNode.children;
   const image = btnSiblings[0];
   const imageSrc = image.getAttribute("src");
-  if(btnSiblings){
+  if(btnSiblings && btnSiblings[1].children[0]){
     
   const nameToBeDisplayed = btnSiblings[1].children[0].innerHTML;
 
