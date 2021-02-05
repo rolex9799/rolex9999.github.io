@@ -14,7 +14,7 @@
           Facebook
         </a>  
 
-        <a href="www.linkedin.com/in/rolands-repetto" target="_blank" class="link-socials">
+        <a href="https://www.linkedin.com/in/rolands-repetto" target="_blank" class="link-socials">
           <i class="fab fa-linkedin"></i>
           Linkedin
         </a>  
