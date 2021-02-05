@@ -12,7 +12,13 @@ const showTeamInfo = (event) => {
   const btnSiblings = event.target.parentNode.children;
   const image = btnSiblings[0];
   const imageSrc = image.getAttribute("src");
+  if(btnSiblings){
+    
   const nameToBeDisplayed = btnSiblings[1].children[0].innerHTML;
+
+  }else{
+  nameToBeDisplayed = ""; 
+  }
  
   modalImage.insertAdjacentHTML("afterbegin", `<img class="team-img" src="${imageSrc}" alt="servette">`);
 
