@@ -64,8 +64,8 @@ $key = $pgdata[$pgname]['keywords'];
 
   ?>
 
-<!-- <?php include('./partials/nav-bottom.php'); ?>
-<?php include('./partials/nav-bottom.php'); ?> -->
+<?php include('./partials/nav-bottom.php'); ?>
+
 
   
 
